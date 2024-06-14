@@ -15,6 +15,7 @@
   - |── yarn@1.22.21 
    
 ### How to Run: 
+- `git clone https://github.com/Gulslabs/amaal-tracker.git`
 - `cd <WORK_DIR>/amaal-tracker/amaal-ui`
 - `npm install`
 - `npm run dev`
