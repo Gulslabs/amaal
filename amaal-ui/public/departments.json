@@ -1,0 +1,25 @@
+[
+    {
+      "name": "Computer Science",
+      "subjects": [
+        "Algorithms",
+        "Data Structures",
+        "Operating Systems",
+        "Databases",
+        "Machine Learning",
+        "Networks"
+      ]
+    },
+    {
+      "name": "Mathematics",
+      "subjects": [
+        "Calculus",
+        "Algebra",
+        "Statistics",
+        "Geometry",
+        "Number Theory",
+        "Topology"
+      ]
+    }    
+  ]
+  

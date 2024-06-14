@@ -1,0 +1,119 @@
+[
+  {
+    "date": "2024-05-27T00:00:00.000Z",
+    "isEditable": true,
+    "amaals": [
+      {
+        "category": "ZIKR",
+        "kind": "TIME_BASED",
+        "duration": 70,
+        "perfomed": true
+      },
+      {
+        "category": "TAHAJJUD",
+        "kind": "TIME_BASED",
+        "duration": 80,
+        "perfomed": true
+      },
+      {
+        "category": "ASTAGFAR",
+        "kind": "TIME_BASED",
+        "duration": 90,
+        "perfomed": true
+      },
+      {
+        "category": "SADAQAH",
+        "kind": "BOOL_BASED",
+        "perfomed": true
+      },
+      {
+        "category": "ROZA",
+        "kind": "BOOL_BASED",
+        "perfomed": true
+      },
+      {
+        "category": "FAJR",
+        "kind": "BOOL_BASED",
+        "perfomed": true
+      }
+    ]
+  },
+  {
+    "date": "2024-05-28T00:00:00.000Z",
+    "isEditable": true,
+    "amaals": [
+      {
+        "category": "ZIKR",
+        "kind": "TIME_BASED",
+        "duration": 40,
+        "perfomed": true
+      },
+      {
+        "category": "TAHAJJUD",
+        "kind": "TIME_BASED",
+        "duration": 50,
+        "perfomed": true
+      },
+      {
+        "category": "ASTAGFAR",
+        "kind": "TIME_BASED",
+        "duration": 60,
+        "perfomed": true
+      },
+      {
+        "category": "SADAQAH",
+        "kind": "BOOL_BASED",
+        "perfomed": true
+      },
+      {
+        "category": "ROZA",
+        "kind": "BOOL_BASED",
+        "perfomed": true
+      },
+      {
+        "category": "FAJR",
+        "kind": "BOOL_BASED",
+        "perfomed": true
+      }
+    ]
+  },
+  {
+    "date": "2024-05-29T00:00:00.000Z",
+    "isEditable": true,
+    "amaals": [
+      {
+        "category": "ZIKR",
+        "kind": "TIME_BASED",
+        "duration": 10,
+        "perfomed": true
+      },
+      {
+        "category": "TAHAJJUD",
+        "kind": "TIME_BASED",
+        "duration": 20,
+        "perfomed": true
+      },
+      {
+        "category": "ASTAGFAR",
+        "kind": "TIME_BASED",
+        "duration": 30,
+        "perfomed": true
+      },
+      {
+        "category": "SADAQAH",
+        "kind": "BOOL_BASED",
+        "perfomed": true
+      },
+      {
+        "category": "ROZA",
+        "kind": "BOOL_BASED",
+        "perfomed": true
+      },
+      {
+        "category": "FAJR",
+        "kind": "BOOL_BASED",
+        "perfomed": true
+      }
+    ]
+  }
+]
