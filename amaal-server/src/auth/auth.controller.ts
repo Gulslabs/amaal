@@ -14,7 +14,7 @@ export class AuthController {
   @Get('/google/redirect')
   @UseGuards(GoogleGuard)
   redirect(@Req() req, @Res() resp) {
-    const jwt = this.authService.handleRedirect(req);
+    const jwt = this.authService.createJwt(req);
     // redirect to the UI with the token.
     resp.redirect(`http://localhost:3000/api/oauth?token=${jwt.access_token}`);
   }

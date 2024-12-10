@@ -5,8 +5,8 @@ import { JwtService } from '@nestjs/jwt';
 export class AuthService {
   constructor(private readonly jwtService: JwtService) {}
 
-  handleRedirect(req) {    
-    console.log(`Redirected and Validated Request: ${JSON.stringify(req.user)}`);
+  createJwt(req) {    
+    console.log(`Creating a JWT Token for the User after it was redirected successfully Request: ${JSON.stringify(req.user)}`);
     return {
       access_token: this.jwtService.sign(req.user),
     };

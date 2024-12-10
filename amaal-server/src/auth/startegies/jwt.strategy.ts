@@ -20,7 +20,7 @@ export class JwtStrategy extends PassportStrategy(Strategy) {
    * @returns
    */
   async validate(payload: any) {
-    console.log(`Payload in Jwt Strategy: ${JSON.stringify(payload)}`);
+    console.log(`Payload in Jwt Strategy extracted by parsing jwtToken: ${JSON.stringify(payload)}`);
     // find user by emailId return id if it exists if it doesnt then create a new one and return    
     return payload;
   }
