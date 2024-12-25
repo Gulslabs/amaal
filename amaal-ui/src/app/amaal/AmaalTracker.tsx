@@ -29,7 +29,7 @@ const AmaalTracker: FC<AmaalTrackerProps> = ({ token }) => {
         <DatePicker onDateChange={onDateChange} />
       </div>
       <div className="flex items-start justify-center pt-2">
-        <h1 className="text-4xl font-bold">Weekly Amaal</h1>
+        <h1 className="text-4xl font-bold">Amaal Tracker</h1>
       </div>
       <div>
         <UserProfile token={token} />
